@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>First App</title>
+  <meta charset="UTF-8">
+</head>
+<!--
+react and react dom are separate because reacrt is used in lots of other environments like native/iOS/andriod, etc.
+reactDOM is required only when you're using react on the net
+
+below div is the container div for our react application. All applications requires some element that exists in our website that they can attach to.
+
+With the type->'text/babel' bable will be able to understand that it should actually do something with the code inside.
+if we have ESX features or JSX, bable is gonna convert that automatically for us
+
+for the render function we are gonna pass 2 args, first is a piece of JSX(JavaScript XML) and second is our app element
+
+bundle.js will be created by webpack
+-->
+<body>
+  <div id="app"></div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
