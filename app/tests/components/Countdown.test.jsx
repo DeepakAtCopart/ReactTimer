@@ -25,7 +25,7 @@ describe('Countdown', () => {
       }, 1001)
     });
 
-    it ('should new set count less than 0', (done) => {
+    it ('should new set count less than 0', (done) =>  {
       var countdown = TestUtils.renderIntoDocument(<Countdown/>);
       countdown.handleSetCountdown(1);
 
